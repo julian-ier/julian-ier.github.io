@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #2c2b23af;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    position: relative;
+    width: 75%;
+    height: 95%;
+    background-color: rgb(204, 199, 199);
+    border: 3px solid #3e9acf;
+}
+
+.imagen-tamano {
+    width: 20%; 
+    height: 30%;
+}
+
+.section {
+    padding: 20px;
+    position: absolute;
+    width: 50%;
+    height: 50%;
+}
+
+.section-top-left {
+    top: 0;
+    left: 0;
+}
+
+.section-top-right {
+    top: 0;
+    right: 0;
+}
+
+.section-bottom-left {
+    bottom: -10%;
+    left: 0;
+}
+
+.section-bottom-right {
+    bottom: -10%;
+    right: 0;
+}
+
+.horizontal-line, .vertical-line {
+    position: absolute;
+    background-color: #03ddb9;
+}
+
+.horizontal-line {
+    width: 100%;
+    height: 1px;
+    top: 60%;
+    left: 0;
+}
+
+.vertical-line {
+    width: 1px;
+    height: 100%;
+    top: 0;
+    left: 50%;
+}
+
+.experience-bar {
+    width: 100%;
+    background-color: #b4b4b4;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.experience-bar-fill {
+    height: 10px;
+    background-color: rgb(28, 212, 197);
+    border-radius: 5px;
+}
